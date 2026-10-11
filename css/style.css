@@ -1,5 +1,5 @@
 @font-face{font-family:"Manrope";src:url("../fonts/Manrope-var.woff2") format("woff2");font-weight:200 800;font-display:swap}
-:root{--navy:#2E6FD6;--navy2:#2560BD;--green:#F26B1D;--green-d:#D9560F;--ink:#1F4E8C;--mut:#5A6678;--bg:#F6F8FB;--line:#E3E8EF}
+:root{--navy:#2E6FD6;--navy2:#2560BD;--green:#F5B700;--green-d:#D99E00;--ink:#1F4E8C;--mut:#5A6678;--bg:#F6F8FB;--line:#E3E8EF}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}
 body{margin:0;font:16px/1.65 Manrope,system-ui,sans-serif;color:var(--ink);background:#fff}
 img{max-width:100%;height:auto;display:block}a{color:inherit}
