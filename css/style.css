@@ -91,3 +91,4 @@ nav#menu a:hover{color:var(--green-d)}
 .alt{background:var(--bg)}
 .logos li{border-color:#E6D9D0}
 .foot{background:#1F1F1F;border-top:4px solid var(--green)}
+.brand-logo{height:54px}@media(max-width:600px){.brand-logo{height:42px}}
