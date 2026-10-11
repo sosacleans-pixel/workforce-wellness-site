@@ -69,3 +69,4 @@ nav#menu a.btn{color:#fff}
 #solution .duo .card{display:flex;flex-direction:column;gap:10px}#solution .duo .card .btn{align-self:flex-start;margin-top:auto}
 #solution .duo .card .eyebrow{margin:0}
 #solution .offer{margin-top:28px}#solution .offer .card{display:flex;flex-direction:column;gap:10px}#solution .offer .card .btn{align-self:flex-start;margin-top:auto}#solution .offer .card .eyebrow{margin:0}
+.brand-logo{height:44px;width:auto;max-width:60vw}@media(max-width:600px){.brand-logo{height:36px}}
