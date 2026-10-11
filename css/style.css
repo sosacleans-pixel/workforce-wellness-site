@@ -92,3 +92,48 @@ nav#menu a:hover{color:var(--green-d)}
 .logos li{border-color:#E6D9D0}
 .foot{background:#1F1F1F;border-top:4px solid var(--green)}
 .brand-logo{height:54px}@media(max-width:600px){.brand-logo{height:42px}}
+/* Secondary accent: green #1E8A5B (positive/progress cues). Orange remains primary. */
+:root{--ok:#1E8A5B;--ok-d:#166B46;--ok-l:#E6F4EC}
+.ticks li::before,.list li::before{color:var(--ok)}
+.meter b{background:var(--ok)}
+.bars b{background:linear-gradient(#2FA872,var(--ok))}
+.lb-r b{background:var(--ok)}
+.kpi strong{color:#7FD3A8}
+#solution .ic{background:var(--ok);color:#fff}
+.feat-list article:hover{border-color:var(--ok)}
+#demo .eyebrow{background:var(--ok-l);color:var(--ok-d)}
+#demo .list li::before,#demo .ticks li::before{color:var(--ok)}
+/* Green pass 2: stronger secondary presence. Orange still leads all CTAs. */
+#solution{background:var(--ok-l)}
+#solution .card{border-top:4px solid var(--ok)}
+#solution>.wrap>.eyebrow,#how .eyebrow,#employers .eyebrow{background:#fff;color:var(--ok-d);box-shadow:inset 0 0 0 1px rgba(30,138,91,.25)}
+#how .eyebrow,#employers .eyebrow{background:var(--ok-l);box-shadow:none}
+#solution .card .eyebrow{background:var(--ok-l);color:var(--ok-d)}
+#solution h2::after,#how h2::after,#employers h2::after{content:"";display:block;width:56px;height:4px;border-radius:2px;background:var(--ok);margin-top:14px}
+#platform .eyebrow{background:rgba(127,211,168,.14);color:#7FD3A8}
+.btn-ghost:hover{border-color:var(--ok);color:var(--ok-d)}
+#platform .btn-ghost:hover{color:#7FD3A8}
+main p a:not(.btn),footer a:not(.btn){text-decoration-color:var(--ok);text-underline-offset:3px}
+main p a:not(.btn):hover,footer a:not(.btn):hover{color:var(--ok-d)}
+#solution .offer .card .eyebrow{align-self:flex-start}
+/* green icons */
+.ic,#solution .ic{background:var(--ok);color:#fff;box-shadow:0 8px 18px -10px rgba(30,138,91,.7)}
+.steps span{background:var(--ok);color:#fff}
+.feat-list article{border-left-color:rgba(30,138,91,.55)}
+svg.icon,.icon{color:var(--ok);fill:currentColor}
+/* Green pass 4: every interactive state turns green. Resting look unchanged. */
+a,button,.btn,.card,nav#menu a,.menu-btn{transition:background-color .22s ease,color .22s ease,border-color .22s ease,box-shadow .22s ease,transform .22s ease,text-decoration-color .22s ease}
+.btn:hover,.btn:focus-visible{background:var(--ok);color:#fff;box-shadow:0 12px 28px -10px rgba(30,138,91,.65);transform:translateY(-1px)}
+.btn:active{background:var(--ok-d);color:#fff;transform:translateY(0);box-shadow:0 6px 14px -8px rgba(30,138,91,.7)}
+.btn-ghost:hover,.btn-ghost:focus-visible{background:#fff;color:var(--ok);box-shadow:inset 0 0 0 2px var(--ok),0 10px 24px -14px rgba(30,138,91,.5)}
+.btn-ghost:active{background:var(--ok-l);color:var(--ok-d);box-shadow:inset 0 0 0 2px var(--ok-d)}
+#platform .btn-ghost:hover,#platform .btn-ghost:focus-visible{background:transparent;color:#7FD3A8;box-shadow:inset 0 0 0 2px #7FD3A8}
+nav#menu a:not(.btn):hover,nav#menu a:not(.btn):focus-visible{color:var(--ok)}
+nav#menu a:not(.btn):active{color:var(--ok-d)}
+a:not(.btn):hover,a:not(.btn):focus-visible{color:var(--ok);text-decoration-color:var(--ok)}
+a:not(.btn):active{color:var(--ok-d)}
+.foot a:not(.btn):hover,.dark a:not(.btn):hover{color:#7FD3A8}
+.menu-btn:hover,.menu-btn:focus-visible{color:var(--ok);border-color:var(--ok)}
+.card:hover,.card:focus-within{border-color:var(--ok);box-shadow:0 20px 40px -24px rgba(30,138,91,.45)}
+.form input:focus,.form select:focus,.form textarea:focus{border-color:var(--ok);box-shadow:0 0 0 3px rgba(30,138,91,.22)}
+:focus-visible{outline-color:var(--ok)}
